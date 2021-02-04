@@ -16,6 +16,11 @@ html {
 
 h1 {
   font-size: 1.875rem;
+  transition: all 0.2s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.1);
 }
 
 .header {
@@ -42,6 +47,11 @@ h1 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   color: #012626;
+  transition: all 0.2s ease-in-out;
+}
+
+.envelope:hover {
+  transform: scale(1.1);
 }
 
 .head-border {

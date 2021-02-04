@@ -48,11 +48,17 @@ body {
   color: inherit;
 }
 
+@-webkit-keyframes appear {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: appear 1s;
 }
 
 .flex-content {
@@ -60,6 +66,6 @@ body {
 }
 
 .footer {
-  margin-top:auto;
+  margin-top: auto;
 }
 </style>
