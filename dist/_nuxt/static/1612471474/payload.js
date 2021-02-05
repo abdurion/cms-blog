@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/", {data:[{articles:[{slug:"entry",description:"What is Cybersecurity? Why is the CIA triad an essential model in security?",title:"السلام",img:"cia_thumbnail.png",updatedAt:"2021-02-03T22:37:11.682Z"}]}],fetch:[],mutations:void 0});
