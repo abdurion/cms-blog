@@ -78,6 +78,6 @@ li {
 }
 
 .entry:hover {
-  transform: scale(1.07);
+  transform: scale(1.01);
 }
 </style>
