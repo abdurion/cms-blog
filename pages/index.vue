@@ -37,6 +37,7 @@ export default {
 html {
   font-size: 100%;
   line-height: 1.3;
+  height: 100%;
 }
 
 *,
