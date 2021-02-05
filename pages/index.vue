@@ -1,6 +1,6 @@
 <template>
   <div class="container" dir="rtl">
-    <ul >
+    <ul>
       <li class="entry" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="article.slug" class="nuxtlinks">
           <img :src="article.img" class="thumbnail" />
@@ -45,6 +45,10 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100%;
 }
 
 ul {
