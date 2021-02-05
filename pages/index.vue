@@ -1,7 +1,7 @@
 <template>
-  <div class="container">
-    <ul>
-      <li v-for="article of articles" :key="article.slug">
+  <div class="container" dir="rtl">
+    <ul >
+      <li class="entry" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="article.slug" class="nuxtlinks">
           <img :src="article.img" class="thumbnail" />
           <div>
@@ -58,20 +58,21 @@ li {
   border-radius: 15px;
   margin-bottom: 15px;
   padding: 1rem;
+  width: 21.875em;
 }
 
 .thumbnail {
   display: block;
   margin: auto;
-  width: 300px;
+  width: 18.75em;
+  padding-bottom: 0.5rem;
 }
 
-.container {
+.entry {
   transition: all 0.2s ease-in-out;
 }
 
-.container:hover {
-  transform: scale(1.01);
+.entry:hover {
+  transform: scale(1.07);
 }
-
 </style>

@@ -6,10 +6,11 @@
     <a href="mailto:abdurion@outlook.com" class="nuxtlinks"
       ><fa icon="envelope" class="envelope"></fa
     ></a>
+    <p dir="rtl" class="maintenance">مدونه بسيطة تحت الإنشاء...</p>
   </header>
 </template>
 
-<style>
+<style scoped>
 html {
   font-size: 100%;
 }
@@ -58,5 +59,10 @@ h1:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   width: 80%;
   margin-bottom: 2.1875rem;
+}
+
+.maintenance {
+  font-size: 13px;
+  padding-bottom: 0.5rem;
 }
 </style>
