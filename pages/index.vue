@@ -34,7 +34,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap");
 
 html {
   font-size: 100%;
@@ -51,7 +50,6 @@ html {
 }
 
 body {
-  font-family: "Tajawal", sans-serif;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;

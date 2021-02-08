@@ -9,9 +9,18 @@ export default {
       lang: "ar"
     },
     meta: [
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap"
+      },
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "مدونه شخصية لكل ما يهمني من تقنية، برمجة، تصميم و تصوير" }
+      {
+        hid: "description",
+        name: "description",
+        content: "مدونه شخصية لكل ما يهمني من تقنية، برمجة، تصميم و تصوير"
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },

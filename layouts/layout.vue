@@ -11,9 +11,8 @@
 </template>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap");
-
 html {
+  font-family: "Tajawal", sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,7 +23,6 @@ html {
 }
 
 body {
-  font-family: "Tajawal", sans-serif;
   color: #012626;
   margin: 0;
   padding: 2rem;
