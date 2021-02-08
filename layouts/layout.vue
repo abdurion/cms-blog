@@ -33,6 +33,8 @@ body {
   height: 100vh;
   text-align: right;
   background: linear-gradient(to bottom, #65dfc9, #6cdbeb);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 *,
