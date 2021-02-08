@@ -33,9 +33,26 @@ export default {
 </script>
 
 <style>
+
+html {
+  font-size: 100%;
+  line-height: 1.3;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 100%;
 }
+
+
 .article {
   margin: 0 auto;
   display: flex;
@@ -71,6 +88,10 @@ img {
   margin: auto;
   width: 720px;
   max-width: 100%;
+}
+
+.thumbnail{
+  width:18.75em;
 }
 
 .twitter-share-button {
