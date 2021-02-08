@@ -12,6 +12,7 @@
       <img :src="article.img" :alt="article.alt" class="thumbnail" />
       <h1>{{ article.title }}</h1>
       <p class="date">{{ formatDate(article.updatedAt) }}</p>
+      <p class="author">{{article.author}}</p>
       <p>{{ article.description }}</p>
       <nuxt-content :document="article" />
       </div>
@@ -24,15 +25,26 @@
 
 <script>
 export default {
+
+  head(){
+    return{
+      title: `${this.article.title}`,
+    }
+  },
+  
   async asyncData({ $content, params }) {
     const article = await $content("articles", params.slug).fetch();
-
+  
     return { article };
-  }
+  },
+
+  
+
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700;900&display=swap");
 
 html {
   font-size: 100%;
@@ -49,6 +61,7 @@ html {
 }
 
 body {
+  font-family: "Tajawal", sans-serif;
   height: 100%;
 }
 
