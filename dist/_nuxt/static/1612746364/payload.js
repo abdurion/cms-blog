@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/", {data:[{articles:[{slug:"ماهو الأمن السيبراني؟",description:"ماهو الأمن السيبراني وماهية الأساسيات المتبعة لتطبيقة؟ وماذا نعني بـ CIA",title:"ماهو الأمن السيبراني؟ وماهي الأساسيات المتبعة عند تطبيقة؟",img:"\u002Fimg\u002Fcia_thumbnail.png",updatedAt:"2021-02-08T01:04:13.481Z"}]}],fetch:[],mutations:void 0});
