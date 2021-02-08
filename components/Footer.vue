@@ -5,6 +5,14 @@
 </template>
 
 <style scoped>
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 div {
   font-family: "Tajawal", sans-serif;
   font-size: 12px;

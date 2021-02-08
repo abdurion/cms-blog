@@ -63,6 +63,9 @@ html {
 body {
   font-family: "Tajawal", sans-serif;
   height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -78,6 +81,7 @@ body {
   margin-bottom: 15px;
   max-width: 95%;
   padding: 1rem 1rem 1rem 1rem;
+  animation: appear 1s;
   /* white-space: pre-wrap; */
 }
 
@@ -112,5 +116,18 @@ img {
 
 .share-buttons {
   text-align: center;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  
 }
 </style>

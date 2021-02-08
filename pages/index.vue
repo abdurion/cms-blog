@@ -53,6 +53,9 @@ html {
 body {
   font-family: "Tajawal", sans-serif;
   height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 ul {
@@ -82,5 +85,18 @@ li {
 
 .entry:hover {
   transform: scale(1.01);
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  animation: appear 1s;
 }
 </style>

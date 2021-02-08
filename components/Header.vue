@@ -13,6 +13,11 @@
 <style scoped>
 html {
   font-size: 100%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 h1 {
