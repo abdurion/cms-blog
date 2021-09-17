@@ -11,13 +11,16 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@nuxt/content": "^1.12.0",
+    "@vue/component-compiler-utils": "^3.1.2",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
-    "nuxt-i18n": "^6.20.0"
+    "nuxt-i18n": "^6.20.0",
+    "vue-server-renderer": "^2.6.14"
   },
   "devDependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@nuxtjs/fontawesome": "^1.1.2"
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "vue-template-compiler": "^2.5.16"
   }
 }
